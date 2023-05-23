@@ -1,0 +1,41 @@
+body {
+  background-color: #353131;
+}
+
+#first {
+  background-color: #910606;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20% auto;
+  border-radius: 10px;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.labelstyle {
+  font-size: 2rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  #first {
+    width: 80%;
+    margin: 20% auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .labelstyle {
+    font-size: 1.5rem;
+  }
+}
